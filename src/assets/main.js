@@ -89,6 +89,7 @@ function showAnswer(winning){
 }
 
 function showReplay(){
-
+	document.getElementById("guessing-div").style.display = 'none';
+	document.getElementById("replay-div").style.display = 'block';
 }
 
